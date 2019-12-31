@@ -85,15 +85,15 @@ LocalWikiを見た人が問題樹木に速やかに気が付くように、観�
 本研究により行政と住民の協働が望まれる街路樹管理において、住民サイドからの支援の可能性が見えてきた。課題はまだあるが、行政と住民が話し合いながらよりよい街路樹管理ができるようになると、相乗効果でさらに住民参加があるのではないか？　
 
 
-### 参考文献：  
-　
+### 参考文献：
+
 [国土交通省　国土技術政策総合研究所　研究資料　第１編　街路樹の点検・診断](http://www.nilim.go.jp/lab/bcg/siryou/tnn/tnn1059pdf/Ks1059018.pdf)　　
 
 [国土交通省　国土技術政策総合研究所　研究資料　第２編　街路樹の点検・診断事例集](http://www.nilim.go.jp/lab/bcg/siryou/tnn/tnn1059pdf/Ks1059013.pdf)　　
 
-[環境省　街路樹ケース検討のための事前調査-ヒートアイランド現象に対する適応s九検討調査業務](https://www.env.go.jp/air/report/h23-01/04-ref2-3.pdf)  
+[環境省　街路樹ケース検討のための事前調査-ヒートアイランド現象に対する適応検討調査業務](https://www.env.go.jp/air/report/h23-01/04-ref2-3.pdf)  
 
-[タブレット端末を利用した植物学習と樹木管理のためのサクラ属のデータベース（CerasusDB)の開発　中村彰宏、守村敦郎](https://www.jstage.jst.go.jp/article/jjsrt/43/1/43_174/_article/-char/ja/)  
+[タブレット端末を利用した植物学習と樹木管理のためのサクラ属のデータベース(CerasusDB)の開発　中村彰宏、守村敦郎](https://www.jstage.jst.go.jp/article/jjsrt/43/1/43_174/_article/-char/ja/)  
 
 [相模原市道路通報アプリ「パッ！撮るん」](http://www.city.sagamihara.kanagawa.jp/patrun/)  
 
@@ -101,6 +101,7 @@ LocalWikiを見た人が問題樹木に速やかに気が付くように、観�
 
 [美しい街路樹を守り育てる「街路樹剪定士」](http://www.jalc.or.jp/sentei/index.html#page01)  
 
-[JA:Tag:natural=tree](https://wiki.openstreetmap.org/wiki/JA:Tag:natural%3Dtree)  
+[JA:Tag:natural=tree](https://wiki.openstreetmap.org/wiki/JA:Tag:natural%3Dtree) 
 
+[野田市街路樹管理マニュアル　素案](https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/010/216/gairozyuizi.pdf)
 
