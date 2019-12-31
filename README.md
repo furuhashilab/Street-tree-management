@@ -16,7 +16,7 @@
 3. 異状木に対し住民から街路樹専門に情報提供（苦情等）を受ける方法が確立されていない。スマートフォン用アプリを使用している自治体もある。（例　相模原市の「パッ！撮るん」）しかし、これらアプリは道路全般の障害通報が主目的で街路樹専門ではない。
 4. 街路樹管理を担当する職員数の不足。  
 
-上記問題点を解決するため、本研究では誰でも簡単に利用・編集できるOpenStreetMapに街路樹をマッピングし、街路樹の位置情報、属性を共有し、Mapillaryで街路樹の時系列変化を記録、Local Wikiで樹木（特に問題のある樹木）の生育状態の経時的変化を過去の写真も利用し記録する方法をとった。街路樹管理支援のため行政と市民が使いやすく継続して利用できる状況の構築を試みた。
+上記問題点を解決するため、本研究では誰でも簡単に利用・編集できるOpenStreetMapに街路樹をマッピングし、街路樹の位置情報、属性を共有し、Mapillaryで街路樹の時系列変化を記録、LocalWikiで樹木（特に問題のある樹木）の生育状態の経時的変化を過去の写真も利用し記録する方法をとった。街路樹管理支援のため行政と市民が使いやすく継続して利用できる状況の構築を試みた。
 
 ## 2. 方法
 ### 2-1 OSMにマッピング   
@@ -39,7 +39,7 @@ OpenStreetMap内の情報を編集したり新規作成できるiphone用のiOS�
 Tagの入力にはOpenStreetMapのtreeのTagつけを参考にdenotation, genus, genus:ja, leaf_cycle, leaf_type, natural, source, species, species:ja, tree:ref の10keyとvalueを入力した。tree:refには2018年度の樹木診断で表示された樹木番号を入力した。樹木診断されなかった樹木で番号がないものも、現地調査で樹木に番号タグが付いていたものはそれを入力した。  
 
 <img src="https://user-images.githubusercontent.com/15658355/71581533-f964e480-2b48-11ea-89ea-ccc69618375f.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71581540-fd910200-2b48-11ea-859f-76f91ead1779.jpg" height="250px">   
-画像1  Go Mapのスマホ画
+画像1  Go Mapのスマホ画面
 
 ### 2-2 Mapillaryで街路樹を撮影
 #### [Mapillary](https://www.mapillary.com/)とは
@@ -49,13 +49,23 @@ Tagの入力にはOpenStreetMapのtreeのTagつけを参考にdenotation, genus,
 #### 撮影方法
 2－1でOSMにマッピングした路線の街路樹をMapillary アプリを使用し撮影しアップロード。将来的には時間列変化を見るために半年くらいの間隔で同じ場所を撮影するようにする. 
 
-画像2　Mapillaryの画面3例  
+画像2　MapillaryのPC画面3例  
 
 ![](https://user-images.githubusercontent.com/15658355/71606892-213f6100-2bb8-11ea-99c8-b6c114c43598.jpg)|![](https://user-images.githubusercontent.com/15658355/71606894-23a1bb00-2bb8-11ea-8083-6fca8e2f4d88.jpg)|![](https://user-images.githubusercontent.com/15658355/71606895-27cdd880-2bb8-11ea-92e5-536262f1cd7b.jpg)
 :--------:|:--------:|:--------:
 区役所通りケヤキ街路樹|池辺歩専(南)2019年4月ヤマザクラ|池辺歩専(南)2019年11月ヤマザクラ
 
 ### 2-3　Local Wikiで街路樹観察を記録 
+#### [LocalWiki](https://localwiki.org/) とは
+
+草の根で住民が自分の街の情報収集、発信し共有するためのサーバとその活動を指す。コンテンツはオープンデータで誰でも二次利用できる。
+カリフォルニアのデービスで2004年Dais Wikiが発祥し、2010年にLocalWikiプロジェクトが始まる。そして2015年からはグローバルにローカル知識を共有するプラットフォームになる。地図にOSMを利用できる。今回の研究目的と合致し、PCだけでなくスマホからも入力できる携帯性、データ格納量からLocalWikiを使用することにする。
+
+#### LocalWikiの対象街路樹
+2-1と2-2では1100本余りの樹木を入力し,ストリートビュー的写真撮影をしたが、今回の研究ではLocalWikiには日本人に最もなじみの深い樹木で,　毎年住民が花見を楽しみにしており、良好な生育状態を維持するために個々の樹木の観察管理が重要なサクラにした。対象場所は池辺歩専道（北側）と池辺歩専道（南側）とした。
+LocalWikiを見た人が問題樹木に速やかに気が付くように、観察したすべてのサクラの状況を毎回投稿していく方法ではなく、過去に撮影したサクラ開花の写真、観察したサクラの中から問題があるサクラの樹木の写真とコメントを投稿する方法をとった。写真のサクラには樹木番号をつけOSM上の樹木のサイトとURLリンクをはり、樹木の位置がわかるようにした。
+
+
 
 
 
@@ -64,3 +74,5 @@ Tagの入力にはOpenStreetMapのtreeのTagつけを参考にdenotation, genus,
 https://wiki.openstreetmap.org/wiki/JA:Tag:natural%3Dtree  
 
 https://wiki.openstreetmap.org/wiki/Key:denotation
+
+https://localwiki.org/
