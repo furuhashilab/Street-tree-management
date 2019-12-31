@@ -39,7 +39,7 @@ OpenStreetMap内の情報を編集したり新規作成できるiphone用のiOS�
 Tagの入力にはOpenStreetMapのtreeのTagつけを参考にdenotation, genus, genus:ja, leaf_cycle, leaf_type, natural, source, species, species:ja, tree:ref の10keyとvalueを入力した。tree:refには2018年度の樹木診断で表示された樹木番号を入力した。樹木診断されなかった樹木で番号がないものも、現地調査で樹木に番号タグが付いていたものはそれを入力した。  
 
 <img src="https://user-images.githubusercontent.com/15658355/71581533-f964e480-2b48-11ea-89ea-ccc69618375f.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71581540-fd910200-2b48-11ea-859f-76f91ead1779.jpg" height="250px">   
-画像1  Go Mapのスマホ画面
+画像1  Go Mapのスマホ画面2例
 
 ### 2-2 Mapillaryで街路樹を撮影
 #### [Mapillary](https://www.mapillary.com/)とは
@@ -62,9 +62,11 @@ Tagの入力にはOpenStreetMapのtreeのTagつけを参考にdenotation, genus,
 カリフォルニアのデービスで2004年Dais Wikiが発祥し、2010年にLocalWikiプロジェクトが始まる。そして2015年からはグローバルにローカル知識を共有するプラットフォームになる。地図にOSMを利用できる。今回の研究目的と合致し、PCだけでなくスマホからも入力できる携帯性、データ格納量からLocalWikiを使用することにする。
 
 #### LocalWikiの対象街路樹
-2-1と2-2では1100本余りの樹木を入力し,ストリートビュー的写真撮影をしたが、今回の研究ではLocalWikiには日本人に最もなじみの深い樹木で,　毎年住民が花見を楽しみにしており、良好な生育状態を維持するために個々の樹木の観察管理が重要なサクラにした。対象場所は池辺歩専道（北側）と池辺歩専道（南側）とした。
+2-1と2-2では1100本余りの樹木を入力し,ストリートビュー的写真撮影をしたが、今回の研究ではLocalWikiには日本人に最もなじみの深い樹木で,　毎年住民が花見を楽しみにしており、良好な生育状態を維持するために個々の樹木の観察管理が重要なサクラにし、対象場所は池辺歩専道（北側）と池辺歩専道（南側）とした。
 LocalWikiを見た人が問題樹木に速やかに気が付くように、観察したすべてのサクラの状況を毎回投稿していく方法ではなく、過去に撮影したサクラ開花の写真、観察したサクラの中から問題があるサクラの樹木の写真とコメントを投稿する方法をとった。写真のサクラには樹木番号をつけOSM上の樹木のサイトとURLリンクをはり、樹木の位置がわかるようにした。
 
+画像3　LocalWikiのスマホ画面  
+<img src="
 
 
 
