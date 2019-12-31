@@ -47,7 +47,8 @@ Tagの入力にはOpenStreetMapのtreeのTagつけを参考にdenotation, genus,
 スマホなどで撮影した写真に位置情報を付加し写真共有をするサービスのアプリ。クラウドソーシング方式で世界のあらゆる場所を投稿できるが、最近はほとんどストリートビュー作成に重きを置いている。ライセンスはCC-BY-SA.  
 
 ### 撮影方法
-2－1でOSMにマッピングした路線の街路樹をMapillary アプリを使用し撮影しアップロード。将来的には時間列変化を見るために半年くらいの間隔で同じ場所を撮影するようにする.  
+2－1でOSMにマッピングした路線の街路樹をMapillary アプリを使用し撮影しアップロード。将来的には時間列変化を見るために半年くらいの間隔で同じ場所を撮影するようにする. 
+
 画像2　Mapillaryの画面3例  
 
 ![](https://user-images.githubusercontent.com/15658355/71606892-213f6100-2bb8-11ea-99c8-b6c114c43598.jpg)|![](https://user-images.githubusercontent.com/15658355/71606894-23a1bb00-2bb8-11ea-8083-6fca8e2f4d88.jpg)|![](https://user-images.githubusercontent.com/15658355/71606895-27cdd880-2bb8-11ea-92e5-536262f1cd7b.jpg)
