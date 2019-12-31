@@ -48,7 +48,7 @@ Tagの入力にはOpenStreetMapのtreeのTagつけを参考にdenotation, genus,
 
 ### 撮影方法
 2－1でOSMにマッピングした路線の街路樹をMapillary アプリを使用し撮影しアップロード。将来的には時間列変化を見るために半年くらいの間隔で同じ場所を撮影するようにする.  
-<img src=" 
+<img src="https://user-images.githubusercontent.com/15658355/71606892-213f6100-2bb8-11ea-99c8-b6c114c43598.jpg" width="250px">  <img src=" 
 
 ### 2-3　Local Wikiで街路樹観察を記録 
 
