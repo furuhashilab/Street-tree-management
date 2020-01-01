@@ -1,7 +1,7 @@
 # Street-tree-management
 ## 本文
-## 題名
-住民による街路樹管理支援のためのGISツールとLocalWikiの適用
+## 住民による街路樹管理支援のためのGISツールとLocalWikiの適用
+
 ## 目次
 1. はじめに
 2. 研究方法
