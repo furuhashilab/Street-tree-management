@@ -65,10 +65,12 @@ Tagの入力にはOpenStreetMapのtreeのTagつけを参考にdenotation, genus,
 2-1と2-2では1100本余りの樹木を入力し,ストリートビュー的写真撮影をしたが、LocalWikiには日本人に最もなじみの深い樹木で,　毎年住民が花見を楽しみにしており、良好な生育状態を維持するために個々の樹木の観察管理が重要なサクラにし、対象場所は池辺歩専道（北側）と池辺歩専道（南側）とした。
 LocalWikiを見た人が問題樹木に速やかに気が付くように、観察したすべてのサクラの状況を毎回アップロードしていく方法ではなく、過去に撮影したサクラ開花の写真、観察したサクラの中から問題があるサクラの樹木の写真とコメントをアップロードする方法をとった。写真のサクラには樹木番号をつけOpenStreetMap上の樹木のサイトとURLリンクをはり、樹木の位置がわかるようにした。
 
-画像3　LocalWikiのスマホ画面  
-<img src="
+画像3　LocalWikiのスマホ画面  3例
+<img src="https://user-images.githubusercontent.com/15658355/71637028-46e26e00-2c7d-11ea-96e6-17ce6bfa0def.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71637029-4b0e8b80-2c7d-11ea-9b9c-2aca469656ee.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71637031-519d0300-2c7d-11ea-8156-97a7f1fc2ad4.jpg" height="250px">  
 
-画像4　LocalWikiのPC画面例
+
+画像4　LocalWikiのPC画面例  
+<img src="https://user-images.githubusercontent.com/15658355/71637193-9d9d7700-2c80-11ea-89e0-5bb0560fcca5.png" width="400px">  
 
 ### 3 成果
 本研究は横浜市都筑区内の街路樹を対象にマッピングし、街路樹の時系列変化を見るためにMapillaryを使用し、樹木の健全性を住民が観察し発信するためにLocalWikiを使用するという統合的に運用する方法を提案した。OSM上に樹木番号付きの樹木マッピングをすることにより行政と住民が樹木の位置情報など基本情報を共有でき、行政は現地に足を運ばなくてもLocalWikiを通じ問題樹木の状況を知ることができる。行政と住民が問題のある樹木の改善措置などを話し合う時にLocalWikiを通じ樹木情報が共有されているのでコミュニケーションがスムーズになる。この統合方法は地域の街路樹維持管理ばかりでなく、将来的な街路樹計画の策定や、住民参加のまちづくりにも役立つと思われる。
