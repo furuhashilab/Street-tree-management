@@ -100,6 +100,7 @@ LocalWikiを見た人が問題樹木に速やかに気が付くように、観�
 2.[国土交通省　国土技術政策総合研究所　研究資料　第２編　街路樹の点検・診断事例集](http://www.nilim.go.jp/lab/bcg/siryou/tnn/tnn1059pdf/Ks1059013.pdf)　　
 
 3.[環境省　街路樹ケース検討のための事前調査-ヒートアイランド現象に対する適応検討調査業務](https://www.env.go.jp/air/report/h23-01/04-ref2-3.pdf)  
+
 4.[タブレット端末を利用した植物学習と樹木管理のためのサクラ属のデータベース(CerasusDB)の開発　中村彰宏、守村敦郎](https://www.jstage.jst.go.jp/article/jjsrt/43/1/43_174/_article/-char/ja/)  
 
 5.[相模原市道路通報アプリ「パッ！撮るん」](http://www.city.sagamihara.kanagawa.jp/patrun/)  
