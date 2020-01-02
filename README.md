@@ -1,7 +1,7 @@
 # 2019年度　ゼミ論文　Street-tree-management
 
 ## 住民による街路樹管理支援のためのGISツールとLocalWikiの活用
-###　Utilizing GIS tool and LocalWiki to support street-tree-management by citizens
+### Utilizing GIS tool and LocalWiki to support street-tree-management by citizens
 ## 目次
 1. はじめに
 2. 方法
