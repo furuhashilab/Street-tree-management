@@ -1,4 +1,3 @@
-# Street-tree-management
 ## 本文
 ## 住民による街路樹管理支援のためのGISツールとLocalWikiの活用
 
