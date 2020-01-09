@@ -6,8 +6,8 @@ https://docs.google.com/document/d/1Yn_vw4UU5HdZfArtMzayvN1GafKKmDVPYcaGlpHJDzU/
 
 ---
 
-## 住民による街路樹管理支援のためのGISツールとLocalWikiの活用　
-### Utilizing GIS tool and LocalWiki to support street-tree-management by citizens  
+## 住民による街路樹管理支援のためのオープンなGISツールとLocalWikiの活用　
+### Utilizing Free and Opensource GIS tool and LocalWiki to support street-tree-management by citizens  
    
 ## 目次
 1. はじめに
@@ -31,7 +31,7 @@ https://docs.google.com/document/d/1Yn_vw4UU5HdZfArtMzayvN1GafKKmDVPYcaGlpHJDzU/
 ### 2-1 OpenStreetMapにマッピング   
 #### [OpenStreetMap](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%83%9E%E3%83%83%E3%83%97) とは
 
-OpenStreetMapは自由に利用でき、地物の地理情報を自由に編集できる機能を持った世界地図を作る世界的な共同プロジェクトである。提供されたデータはOpen Database(ODbl)1.0のもと再利用可能である。
+OpenStreetMapは自由に利用でき、地物の地理情報を自由に編集できる機能を持った世界地図を作る世界的な共同プロジェクトである。提供されたデータはOpen Database License(ODbL)1.0のもと再利用可能である。
 
 #### [Go Map!!](https://wiki.openstreetmap.org/wiki/JA:Go_Map!!)とは
 
@@ -64,7 +64,7 @@ Tagの入力にはOpenStreetMapのtreeのTagづけを参考にdenotation, genus,
 :--------:|:--------:|:--------:
 区役所通りケヤキ街路樹|池辺歩専(南)2019年4月ヤマザクラ|池辺歩専(南)2019年11月ヤマザクラ
 
-### 2-3　Local Wikiで街路樹観察を記録と発信
+### 2-3　LocalWikiで街路樹観察を記録と発信
 #### [LocalWiki](https://localwiki.org/) とは
 
 草の根で住民が自分の街の情報収集、発信し共有するためのサーバとその活動を指す。コンテンツはオープンデータで誰でも二次利用できる。
