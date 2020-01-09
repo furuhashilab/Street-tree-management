@@ -108,7 +108,7 @@ LocalWikiの都筑の樹木の各ページを見た人が問題樹木に速や�
 本研究では行政と住民の協働が望まれる街路樹管理において、住民が使いやすく継続して利用できる方法として既存の無料ツールを統合的運用する方法を提案した。オープンソース化により行政と住民が情報共有でき、その有効性が確認できた。　しかし、本研究ではウォークショップなどを開くところまではできなかった。Mapillaryが樹木管理に最適なアプリかどうかや、アプリの使いやすさ改善のために、今後さらに検証する必要がある。
 
 
-### 参考文献：
+### [参考文献](https://docs.google.com/spreadsheets/d/1Z0fuuvf4HRObFWggpDrsVv9VWL1m3sSIYVPT5FJQ_YM/edit?usp=sharing)：
 
 1.[国土交通省　国土技術政策総合研究所　研究資料　第１編　街路樹の点検・診断](http://www.nilim.go.jp/lab/bcg/siryou/tnn/tnn1059pdf/Ks1059018.pdf)　　
 
@@ -131,5 +131,6 @@ LocalWikiの都筑の樹木の各ページを見た人が問題樹木に速や�
 10.[浦安市街路樹マップ（オープンデータ）](http://www.city.urayasu.lg.jp/shisei/keikaku/1022110/1025892/1025896/1022352.html)
 
 11.[北九州市　街路樹樹種別本数](https://ckan.open-governmentdata.org/dataset/401005_gairojyujyusyubetsuhonsu)
+
 
 
