@@ -1,4 +1,10 @@
 # 2019年度　ゼミ論文　Street-tree-management
+江口弥生の2019年ゼミ論制作用レポジトリです
+
+* ゼミ論概論(印刷用アブストラクト)
+https://docs.google.com/document/d/1Yn_vw4UU5HdZfArtMzayvN1GafKKmDVPYcaGlpHJDzU/edit?usp=sharing
+
+---
 
 ## 住民による街路樹管理支援のためのGISツールとLocalWikiの活用　
 ### Utilizing GIS tool and LocalWiki to support street-tree-management by citizens  
