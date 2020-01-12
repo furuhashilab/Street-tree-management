@@ -42,10 +42,12 @@ OpenStreetMap内の情報を編集したり新規作成できるiphone用のiOS�
 横浜市都筑土木事務所が2018年度に樹木医により街路樹診断をした樹木を中心に1100本余りの樹木をOpenStreetMapにGo Mapを使用してマッピングした。樹種はケヤキ、クス、ソメイヨシノ、ユリノキ、ヤマザクラ、イチョウ、ハクウンボク、ハナミズキ、アラカシ、サクラ（八重桜）、シラカシ、カツラ、エンジュ、アメリカフウ、こぶし、サルスベリ、シダレザクラ、ナンキンハゼ、メタセコイア、ナツツバキ、モチノキ、ハクモクレン、フジ、不明など25種。サクラは種がはっきりわかるものはヤマザクラ、ヨウコウザクラ、シダレザクラなど分けた。  
 
 ![list-1.png](https://user-images.githubusercontent.com/15658355/71581253-b22a2400-2b47-11ea-801a-408b1b45ebe7.png)
- 図1　OpenStreetMap入力　樹木リスト 
+ 図1　[OpenStreetMap入力　樹木リスト ](https://docs.google.com/spreadsheets/d/1hhwqPke-wK_2jUdbuTmsoAsKZXQMHUsu_OPeqv2TDDQ/edit?usp=sharing)
 
 
-Tagの入力にはOpenStreetMapのtreeのTagづけを参考にdenotation, genus, genus:ja, leaf_cycle, leaf_type, natural, source, species, species:ja, tree:ref の10keyとvalueを入力した。tree:refには2018年度の樹木診断で表示された樹木番号を入力した。樹木診断されなかった樹木で番号がないものも、現地調査で樹木に番号タグが付いていたものはそれを入力した。  
+Tagの入力にはOpenStreetMapのtreeのTagづけを参考にdenotation, genus, genus:ja, leaf_cycle, leaf_type, natural, source, species, species:ja, tree:ref, ref のkeyとvalueをわかる限り入力した。
+樹木番号は樹木を特定するのに便利である。横浜市都筑土木事務所は樹木診断を受託した会社がつけた番号を利用しているのでそれを樹木番号とし入力した。2018年度に樹木診断されなかった樹木でも、現地調査で過去の樹木診断による樹木番号タグが樹木に付いていたものはそれを入力した。それにより約800の樹木(約72%）の樹木番号を入力できた。
+natural=tree の地物でtree:refを使っているケースが143116件。refを使っているケースが198034件あった。tree:refのtagは樹木の参照番号とはっきりわかるtagでありドイツや英国など主にヨーロッパで樹木番号として使われている。通常refのtagは参照番号やコードに使用され、道路や高速道路の出口番号などによく使用される。natural=treeでかつrefのtagを持つ地物の確認ができなかった。しかしref が使われているケースの方が件数が多いし、今後樹木の管理主体などによりどちらかのtagに一本化されるかもしれないので、今回はtree:ref と ref の両方のtagをつけることにした。
 
 <img src="https://user-images.githubusercontent.com/15658355/71581533-f964e480-2b48-11ea-89ea-ccc69618375f.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71581540-fd910200-2b48-11ea-859f-76f91ead1779.jpg" height="250px">   
 画像1  Go Mapのスマホ画面2例
@@ -67,7 +69,7 @@ Tagの入力にはOpenStreetMapのtreeのTagづけを参考にdenotation, genus,
 ### 2-3　LocalWikiで街路樹観察を記録と発信
 #### [LocalWiki](https://localwiki.org/) とは
 
-草の根で住民が自分の街の情報収集、発信し共有するためのサーバとその活動を指す。コンテンツはオープンデータで誰でも二次利用できる。
+草の根で住民が自分の街の情報収集、発信し共有するためのサーバとその活動を指す。コンテンツはオープンデータでライセンスはCC-BY 4.0 (Creative Commons Attribution 4.0 license)で誰でも二次利用できる。
 カリフォルニアのデービスで2004年Dais Wikiが発祥し、2010年にLocalWikiプロジェクトが始まる。そして2015年からはグローバルにローカル知識を共有するプラットフォームになる。地図にOpenStreetMapを利用できる。今回の研究目的と合致し、PCだけでなくスマホからも入力できる携帯性、データ格納量から街路樹観察記録にLocalWikiを使用する。
 
 #### LocalWikiの対象街路樹・対象場所・記録方法
