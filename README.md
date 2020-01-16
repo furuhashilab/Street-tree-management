@@ -41,16 +41,29 @@ OpenStreetMap内の情報を編集したり新規作成できるiphone用のiOS�
 
 横浜市都筑土木事務所が2018年度に樹木医により街路樹診断をした樹木を中心に1100本余りの樹木をOpenStreetMapにGo Mapを使用してマッピングした。樹種はケヤキ、クス、ソメイヨシノ、ユリノキ、ヤマザクラ、イチョウ、ハクウンボク、ハナミズキ、アラカシ、サクラ（八重桜）、シラカシ、カツラ、エンジュ、アメリカフウ、こぶし、サルスベリ、シダレザクラ、ナンキンハゼ、メタセコイア、ナツツバキ、モチノキ、ハクモクレン、フジ、不明など25種。サクラは種がはっきりわかるものはヤマザクラ、ヨウコウザクラ、シダレザクラなど分けた。  
 
+ 表1　[OpenStreetMap入力　樹木リスト ](https://docs.google.com/spreadsheets/d/1hhwqPke-wK_2jUdbuTmsoAsKZXQMHUsu_OPeqv2TDDQ/edit?usp=sharing)
+ 
 ![list-1.png](https://user-images.githubusercontent.com/15658355/71581253-b22a2400-2b47-11ea-801a-408b1b45ebe7.png)
- 図1　[OpenStreetMap入力　樹木リスト ](https://docs.google.com/spreadsheets/d/1hhwqPke-wK_2jUdbuTmsoAsKZXQMHUsu_OPeqv2TDDQ/edit?usp=sharing)
+
 
 
 Tagの入力にはOpenStreetMapのtreeのTagづけを参考にdenotation, genus, genus:ja, leaf_cycle, leaf_type, natural, source, species, species:ja, tree:ref, ref のkeyとvalueをわかる限り入力した。
+
 樹木番号は樹木を特定するのに便利である。横浜市都筑土木事務所は樹木診断を受託した会社がつけた番号を利用しているのでそれを樹木番号とし入力した。2018年度に樹木診断されなかった樹木でも、現地調査で過去の樹木診断による樹木番号タグが樹木に付いていたものはそれを入力した。それにより約800の樹木(約72%）の樹木番号を入力できた。
-natural=tree の地物でtree:refを使っているケースが143116件。refを使っているケースが198034件あった。tree:refのtagは樹木の参照番号とはっきりわかるtagでありドイツや英国など主にヨーロッパで樹木番号として使われている。通常refのtagは参照番号やコードに使用され、道路や高速道路の出口番号などによく使用される。natural=treeでかつrefのtagを持つ地物の確認ができなかった。しかしref が使われているケースの方が件数が多いし、今後樹木の管理主体などによりどちらかのtagに一本化されるかもしれないので、今回はtree:ref と ref の両方のtagをつけることにした。
+natural=tree の地物でtree:refを使っているケースが143121件, refを使っているケースが199375件あった(2020年1月15日現在)。tree:refのtagは樹木の参照番号とはっきりわかる名称でありドイツや英国など主にヨーロッパで樹木番号として使われている。
+
+画像　"tag info natural=tree combination 2枚”
+
+画像　ドイツのtree:ref  の例　1枚
+
+一方、refのtagはNodeだけでも260万件以上の地物に使用されていう。あらゆる分野の参照番号やコードに使用され、道路や高速道路の出口番号、学校、郵便ポストなどによく使用される。refのtagをつけている地物でnatural=treeを持つ地物をみつけることができなかった（2020年1月15日現在）。しかしnatural=treeの地物でref tagが使われているケースの方が件数が多いし、将来樹木の管理主体などによりどちらかのtagに一本化されるかもしれないので、今回はtree:ref と ref の両方のtagをつけることにした。
+
+"画像　ref のtaginfo"
+
+図1  Go Mapのスマホ画面2例
 
 <img src="https://user-images.githubusercontent.com/15658355/71581533-f964e480-2b48-11ea-89ea-ccc69618375f.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71581540-fd910200-2b48-11ea-859f-76f91ead1779.jpg" height="250px">   
-画像1  Go Mapのスマホ画面2例
+
 
 ### 2-2 Mapillaryで街路樹を撮影
 #### [Mapillary](https://www.mapillary.com/)とは
@@ -69,8 +82,16 @@ natural=tree の地物でtree:refを使っているケースが143116件。ref�
 ### 2-3　LocalWikiで街路樹観察を記録と発信
 #### [LocalWiki](https://localwiki.org/) とは
 
-草の根で住民が自分の街の情報収集、発信し共有するためのサーバとその活動を指す。コンテンツはオープンデータでライセンスはCC-BY 4.0 (Creative Commons Attribution 4.0 license)で誰でも二次利用できる。
-カリフォルニアのデービスで2004年Dais Wikiが発祥し、2010年にLocalWikiプロジェクトが始まる。そして2015年からはグローバルにローカル知識を共有するプラットフォームになる。地図にOpenStreetMapを利用できる。今回の研究目的と合致し、PCだけでなくスマホからも入力できる携帯性、データ格納量から街路樹観察記録にLocalWikiを使用する。
+ローカルの知識を草の根で収集・発信・共有・蓄積・継承するためのサーバとその活動を指す。ライセンスはCC-BY 4.0 (Creative Commons Attribution 4.0 license)で誰でも二次利用できる。 背景地図にOpenStreetMapを使用。
+カリフォルニアのデービスで2004年[DaisWiki](https://daviswiki.org/)がスタートする。カリフォルニア大学デービス校の学生たちが街の役に立つようなことを考え、住民が記事を書き載せるサイトをつくる。2010年にLocalWikiプロジェクトが始まる。<br>
+日本においては、2012年オープンソースのLocalWikiを使い国土交通省事業として伊豆大島（東京都大島町）が[伊豆大島ジオパーク・データミュージアム](http://oshima.georepublic.jp/Front_Page)というWebサイトを構築した。LocalWikiの背景地図として利用されているOpenStreetMapは島内外からの参加者によるマッピングパーティ開催などで整備された。当初は伊豆大島の観光活性化になる情報を一元化し島内外に発信・共有・蓄積することであった。しかし、2013年10月の台風26号で大被害を受けたとき、地元住民が災害写真を発信したり、Webサイト構築時にかかわったエンジニアやマッパーなどの人的ネットワークにより被災状況や危険個所区域の情報を集約した伊豆大島台風被災状況マップがつくられた。
+
+"画像 災害写真の投稿　伊豆大島台風被災状況マップ　2枚"
+
+伊豆大島ジオパーク・データミュージアムのLocalWikiは観光を軸にデータを蓄積しつつ背景地図のOpenStreetMapを整備することで防災にも活用できる情報共有のプラットフォームとなった事例である。
+
+2014年8月に[Knight Foundation](https://knightfoundation.org/)が支援を始め、日本語化も含めて無料のサーバが提供される。2014年12月に[LocalWiki Organization Japan(LoJ)](https://ja.localwiki.org/main-ja/)が設立される。2015年にLocalWikiは正式にグローバル化、多言語化された。LocalWikiはこのようにシステムの変更を経ながら、Local=地元の知識・想いを草の根で収集・発信・共有し、それを蓄積して継承するツールとして日本各地で使われている。その中で[室蘭](https://ja.localwiki.org/mr/)は活動的リージョンである。
+LocalWikiは今回の研究目的と合致し、PCだけでなくスマホからも入力できる携帯性、データ格納量からも街路樹観察記録に適するので使用する。
 
 #### LocalWikiの対象街路樹・対象場所・記録方法
 2-1と2-2では1100本余りの樹木を入力し,　ストリートビュー的に街路樹の写真撮影をしたが、LocalWikiには日本人が愛着を感じる樹木で,　毎年住民が花見を楽しみにし、良好な生育状態を維持するために個々の樹木の観察管理が重要なサクラを対象街路樹にし、対象場所は池辺歩専道（北側）と池辺歩専道（南側）の80本あまりを対象としLocalWikiの横浜市都筑区内に都筑の樹木のページを作成した。　
