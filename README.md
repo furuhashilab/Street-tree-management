@@ -41,28 +41,40 @@ OpenStreetMap内の情報を編集したり新規作成できるiphone用のiOS�
 
 横浜市都筑土木事務所が2018年度に樹木医により街路樹診断をした樹木を中心に1100本余りの樹木をOpenStreetMapにGo Mapを使用してマッピングした。樹種はケヤキ、クス、ソメイヨシノ、ユリノキ、ヤマザクラ、イチョウ、ハクウンボク、ハナミズキ、アラカシ、サクラ（八重桜）、シラカシ、カツラ、エンジュ、アメリカフウ、こぶし、サルスベリ、シダレザクラ、ナンキンハゼ、メタセコイア、ナツツバキ、モチノキ、ハクモクレン、フジ、不明など25種。サクラは種がはっきりわかるものはヤマザクラ、ヨウコウザクラ、シダレザクラなど分けた。  
 
- 表1　[OpenStreetMap入力　樹木リスト ](https://docs.google.com/spreadsheets/d/1hhwqPke-wK_2jUdbuTmsoAsKZXQMHUsu_OPeqv2TDDQ/edit?usp=sharing)
+ 表 1　[OpenStreetMap入力　樹木リスト ](https://docs.google.com/spreadsheets/d/1hhwqPke-wK_2jUdbuTmsoAsKZXQMHUsu_OPeqv2TDDQ/edit?usp=sharing)
  
-![list-1.png](https://user-images.githubusercontent.com/15658355/71581253-b22a2400-2b47-11ea-801a-408b1b45ebe7.png)
+![list-1.png](https://user-images.githubusercontent.com/15658355/72495005-f2d4ad80-3868-11ea-9fcf-f5659211adf6.png)
 
 
 
-Tagの入力にはOpenStreetMapのtreeのTagづけを参考にdenotation, genus, genus:ja, leaf_cycle, leaf_type, natural, source, species, species:ja, tree:ref, ref のkeyとvalueをわかる限り入力した。
+タグの入力にはOpenStreetMapのtreeのタグづけを参考にdenotation, genus, genus:ja, leaf_cycle, leaf_type, natural, source, species, species:ja, tree:ref, ref のkeyとvalueをわかる限り入力した。
 
 樹木番号は樹木を特定するのに便利である。横浜市都筑土木事務所は樹木診断を受託した会社がつけた番号を利用しているのでそれを樹木番号とし入力した。2018年度に樹木診断されなかった樹木でも、現地調査で過去の樹木診断による樹木番号タグが樹木に付いていたものはそれを入力した。それにより約800の樹木(約72%）の樹木番号を入力できた。
-natural=tree の地物でtree:refを使っているケースが143121件, refを使っているケースが199375件あった(2020年1月15日現在)。tree:refのtagは樹木の参照番号とはっきりわかる名称でありドイツや英国など主にヨーロッパで樹木番号として使われている。
+natural=tree の地物でtree:refを使っているケースが143121件, refを使っているケースが199375件あった(2020年1月15日現在)。tree:refのタグは樹木の参照番号とはっきりわかる名称でありドイツや英国など主にヨーロッパで樹木番号として使われている。
 
-画像　"tag info natural=tree combination 2枚”
+図　1 natural=treeと共に使われているタグとその件数  refとtree:refが使われている 
 
-画像　ドイツのtree:ref  の例　1枚
+<img src="https://user-images.githubusercontent.com/15658355/72495103-26173c80-3869-11ea-91d8-862426ba9002.jpg" width="400px">  <img src="https://user-images.githubusercontent.com/15658355/72495103-26173c80-3869-11ea-91d8-862426ba9002.jpg" width="400px"> 
 
-一方、refのtagはNodeだけでも260万件以上の地物に使用されていう。あらゆる分野の参照番号やコードに使用され、道路や高速道路の出口番号、学校、郵便ポストなどによく使用される。refのtagをつけている地物でnatural=treeを持つ地物をみつけることができなかった（2020年1月15日現在）。しかしnatural=treeの地物でref tagが使われているケースの方が件数が多いし、将来樹木の管理主体などによりどちらかのtagに一本化されるかもしれないので、今回はtree:ref と ref の両方のtagをつけることにした。
 
-"画像　ref のtaginfo"
+図　2　tree:refのタグが使われている場所の地図　
 
-図1  Go Mapのスマホ画面2例
+<img src="https://user-images.githubusercontent.com/15658355/72495124-2fa0a480-3869-11ea-9795-633d20caf759.jpg" width="400px"> 
 
-<img src="https://user-images.githubusercontent.com/15658355/71581533-f964e480-2b48-11ea-89ea-ccc69618375f.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71581540-fd910200-2b48-11ea-859f-76f91ead1779.jpg" height="250px">   
+図　3　tree:refのタグが使われているドイツのベルリン近くの例
+
+<img src="https://user-images.githubusercontent.com/15658355/72495130-3202fe80-3869-11ea-9a8e-f1203d57b091.jpg" width="400px">
+
+一方、refのタグはNodeだけでも260万件以上の地物に使用されている。あらゆる分野の参照番号やコードに使用され、道路や高速道路の出口番号、学校、郵便ポストなどによく使用される。refのタグをつけている地物でnatural=treeを持つ地物をみつけることができなかった（2020年1月15日現在）。しかしnatural=treeの地物でref タグが使われているケースの方が件数が多いし、将来樹木の管理主体などによりどちらかのtagに一本化されるかもしれないので、今回はtree:ref と ref の両方のタグをつけることにした。
+
+図　4　ref のtaginfo
+
+<img src="https://user-images.githubusercontent.com/15658355/72495137-362f1c00-3869-11ea-9c20-c63a1f88615e.jpg" width="400px">
+
+
+図　5  Go Mapのスマホ画面2例
+
+<img src="https://user-images.githubusercontent.com/15658355/72495018-f831f800-3868-11ea-87c3-80bd62e417d5.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/72495025-fbc57f00-3868-11ea-9457-de0f65ff6cf7.jpg" height="250px">   
 
 
 ### 2-2 Mapillaryで街路樹を撮影
@@ -73,11 +85,11 @@ natural=tree の地物でtree:refを使っているケースが143121件, refを
 #### 撮影方法
 2－1でOpenStreetMapにマッピングした路線を歩行し街路樹をMapillary アプリを使用し撮影しアップロード。時間列変化を見るために半年くらいの間隔で同じ場所を撮影する. 
 
-画像2　MapillaryのPC画面3例  
+図　6　MapillaryのPC画面3例  
 
-![](https://user-images.githubusercontent.com/15658355/71606892-213f6100-2bb8-11ea-99c8-b6c114c43598.jpg)|![](https://user-images.githubusercontent.com/15658355/71606894-23a1bb00-2bb8-11ea-8083-6fca8e2f4d88.jpg)|![](https://user-images.githubusercontent.com/15658355/71606895-27cdd880-2bb8-11ea-92e5-536262f1cd7b.jpg)
+![](https://user-images.githubusercontent.com/15658355/72495151-3cbd9380-3869-11ea-9315-f1c529151a4d.jpg)|![](https://user-images.githubusercontent.com/15658355/72495153-3e875700-3869-11ea-9094-6727c328e26d.jpg)|![](https://user-images.githubusercontent.com/15658355/72495156-40e9b100-3869-11ea-8066-4e6f4306c26a.jpg)
 :--------:|:--------:|:--------:
-区役所通りケヤキ街路樹|池辺歩専(南)2019年4月ヤマザクラ|池辺歩専(南)2019年11月ヤマザクラ
+[区役所通りケヤキ街路樹](https://www.mapillary.com/app/?lat=35.55547345321837&lng=139.5769346359655&z=17&focus=map&pKey=WvXJUOZmd1AliIFiLjoiKQ&menu=false)|[池辺歩専(南)2019年4月ヤマザクラ](https://www.mapillary.com/app/?lat=35.53543949320111&lng=139.56374702719563&z=17&focus=map&pKey=Lu9a3VISs_5DxpsOEG60NA)|[池辺歩専(南)2019年11月ヤマザクラ](https://www.mapillary.com/app/?lat=35.53539853081501&lng=139.5637881948311&z=17&focus=map&pKey=HBQifVisGmWRcQtEddsIbA)
 
 ### 2-3　LocalWikiで街路樹観察を記録と発信
 #### [LocalWiki](https://localwiki.org/) とは
@@ -86,7 +98,13 @@ natural=tree の地物でtree:refを使っているケースが143121件, refを
 カリフォルニアのデービスで2004年[DaisWiki](https://daviswiki.org/)がスタートする。カリフォルニア大学デービス校の学生たちが街の役に立つようなことを考え、住民が記事を書き載せるサイトをつくる。2010年にLocalWikiプロジェクトが始まる。<br>
 日本においては、2012年オープンソースのLocalWikiを使い国土交通省事業として伊豆大島（東京都大島町）が[伊豆大島ジオパーク・データミュージアム](http://oshima.georepublic.jp/Front_Page)というWebサイトを構築した。LocalWikiの背景地図として利用されているOpenStreetMapは島内外からの参加者によるマッピングパーティ開催などで整備された。当初は伊豆大島の観光活性化になる情報を一元化し島内外に発信・共有・蓄積することであった。しかし、2013年10月の台風26号で大被害を受けたとき、地元住民が災害写真を発信したり、Webサイト構築時にかかわったエンジニアやマッパーなどの人的ネットワークにより被災状況や危険個所区域の情報を集約した伊豆大島台風被災状況マップがつくられた。
 
-"画像 災害写真の投稿　伊豆大島台風被災状況マップ　2枚"
+図　7　伊豆大島ジオパーク・データミュージアムの台風26号災害写真と記事の投稿
+<img src="https://user-images.githubusercontent.com/15658355/72495179-4b0baf80-3869-11ea-86c9-eded0d2cb270.jpg" width="400px">  <img src="https://user-images.githubusercontent.com/15658355/72495182-4d6e0980-3869-11ea-89e8-15f06619a395.jpg" width="400px">
+
+図　8　伊豆大島台風被災状況マップ
+
+<img src="https://user-images.githubusercontent.com/15658355/72495185-51019080-3869-11ea-8753-e7a565c64f68.jpg" width="400px">
+
 
 伊豆大島ジオパーク・データミュージアムのLocalWikiは観光を軸にデータを蓄積しつつ背景地図のOpenStreetMapを整備することで防災にも活用できる情報共有のプラットフォームとなった事例である。
 
@@ -94,21 +112,19 @@ natural=tree の地物でtree:refを使っているケースが143121件, refを
 LocalWikiは今回の研究目的と合致し、PCだけでなくスマホからも入力できる携帯性、データ格納量からも街路樹観察記録に適するので使用する。
 
 #### LocalWikiの対象街路樹・対象場所・記録方法
-2-1と2-2では1100本余りの樹木を入力し,　ストリートビュー的に街路樹の写真撮影をしたが、LocalWikiには日本人が愛着を感じる樹木で,　毎年住民が花見を楽しみにし、良好な生育状態を維持するために個々の樹木の観察管理が重要なサクラを対象街路樹にし、対象場所は池辺歩専道（北側）と池辺歩専道（南側）の80本あまりを対象としLocalWikiの横浜市都筑区内に都筑の樹木のページを作成した。　
-（[LocalWikiの都筑の樹木サイト](https://ja.localwiki.org/yokohama/tags/%E9%83%BD%E7%AD%91%E3%81%AE%E6%A8%B9%E6%9C%A8))　　
+2-1と2-2では1100本余りの樹木を入力し,　ストリートビュー的に街路樹の写真撮影をしたが、LocalWikiには日本人が愛着を感じる樹木で,　毎年住民が花見を楽しみにし、良好な生育状態を維持するために個々の樹木の観察管理が重要なサクラを対象街路樹にし、対象場所は池辺歩専道（北側）と池辺歩専道（南側）の80本あまりを対象としLocalWikiの横浜市都筑区内に[都筑の樹木のページ](https://ja.localwiki.org/yokohama/tags/%E9%83%BD%E7%AD%91%E3%81%AE%E6%A8%B9%E6%9C%A8)を作成した。　
 
 LocalWikiの都筑の樹木の各ページを見た人が問題樹木に速やかに気が付くように、観察する全てのサクラの木の状況を毎回アップロードしていく方法ではなく、観察したサクラの中から問題がある樹木の写真とコメントをアップロードする方法をとった。また過去に撮影したサクラの開花の写真などもアップロードし経年変化を示した。サクラの写真のキャプション内に樹木番号表示をし、OpenStreetMap上の樹木位置のサイトとリンクをはり、当該樹木の位置が確認できるようにした。
 
 
+図　9　LocalWikiのスマホ画面  3例  
 
-画像3　LocalWikiのスマホ画面  3例  
-
-<img src="https://user-images.githubusercontent.com/15658355/71637028-46e26e00-2c7d-11ea-96e6-17ce6bfa0def.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71637029-4b0e8b80-2c7d-11ea-9b9c-2aca469656ee.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/71637031-519d0300-2c7d-11ea-8156-97a7f1fc2ad4.jpg" height="250px">  
+<img src="https://user-images.githubusercontent.com/15658355/72495198-57900800-3869-11ea-824d-6038b37c43db.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/72495208-5c54bc00-3869-11ea-81f1-e5733593f88f.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/72495215-5fe84300-3869-11ea-8f14-c596c4723370.jpg" height="250px">  
 
 
-画像4　LocalWikiのPC画面例  
+図　10　LocalWikiのPC画面例  
 
-<img src="https://user-images.githubusercontent.com/15658355/71637193-9d9d7700-2c80-11ea-89e0-5bb0560fcca5.png" width="400px">  
+<img src="https://user-images.githubusercontent.com/15658355/72495225-65458d80-3869-11ea-95ba-fe8cb275454f.png" width="400px">  
 
 ### 3 成果
 本研究は横浜市都筑区内の街路樹1100本あまりをOpenStreetMapにマッピングし、街路樹の時系列変化を見るためにMapillaryを使用し、樹木の健全性を住民が観察し発信するためにサクラを例にLocalWikiを使用するという統合的に運用する方法を提案した。OpenStreetMap上に樹木番号付きの樹木マッピングをすることにより行政と住民が樹木の位置情報など基本情報を共有できた。　行政は現地に足を運ばなくてもLocalWikiを通じ問題樹木の状況を知ることができた。行政と住民が問題のある樹木の改善措置などを話し合う時にLocalWikiを通じ樹木状況の情報が共有されているのでコミュニケーションがスムーズになる。この統合方法は地域の街路樹維持管理ばかりでなく、将来的な街路樹計画の策定や、住民参加のまちづくりにも役立つと思われる。　　
