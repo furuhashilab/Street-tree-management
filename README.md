@@ -161,15 +161,50 @@ LocalWikiの都筑の樹木の各ページを見た人が問題樹木に速や�
 
 6.[樹木医](http://www.jpgreen.or.jp/treedoctor/info.html)  
 
-7.[JA:Tag:natural=tree](https://wiki.openstreetmap.org/wiki/JA:Tag:natural%3Dtree) 
+7.[野田市街路樹管理マニュアル　素案](https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/010/216/gairozyuizi.pdf)
 
-8.[野田市街路樹管理マニュアル　素案](https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/010/216/gairozyuizi.pdf)
+8.[浦安市街路樹マップ（オープンデータ）](http://www.city.urayasu.lg.jp/shisei/keikaku/1022110/1025892/1025896/1022352.html)
 
-9.[Wikipedia 街路樹](https://ja.wikipedia.org/wiki/%E8%A1%97%E8%B7%AF%E6%A8%B9)
+9.[北九州市　街路樹樹種別本数](https://ckan.open-governmentdata.org/dataset/401005_gairojyujyusyubetsuhonsu)
 
-10.[浦安市街路樹マップ（オープンデータ）](http://www.city.urayasu.lg.jp/shisei/keikaku/1022110/1025892/1025896/1022352.html)
+10.[オープンストリートマップ](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E3%83%9E%E3%83%83%E3%83%97)
 
-11.[北九州市　街路樹樹種別本数](https://ckan.open-governmentdata.org/dataset/401005_gairojyujyusyubetsuhonsu)
+11.[JA:Go Map!!](https://wiki.openstreetmap.org/wiki/JA:Go_Map!!)
+
+12.[JA:Tag:natural=tree](https://wiki.openstreetmap.org/wiki/JA:Tag:natural%3Dtree) 
+
+13.[Taginfo ref](https://taginfo.openstreetmap.org/keys/tree%3Aref)
+
+14.[Taginfo natural=treeと共に最も使われているタグ](https://taginfo.openstreetmap.org/tags/natural=tree#combinations)
+
+15.[Taginfo tree:ref](https://taginfo.openstreetmap.org/keys/tree%3Aref)
+
+16.[Mapillary](https://www.mapillary.com/)
+
+17.[LocalWiki](https://localwiki.org/about/)
+
+18.[DavisWiki](https://localwiki.org/davis/)
+
+19.[Knight Foundation](https://knightfoundation.org/about/)
+
+20.[国土交通省　国土政策局　地域づくり活動に地図やGISを使おう～地理空間情報(G空間情報）の活用事例と手引き～](http://www.mlit.go.jp/common/001035477.pdf)
+
+21.[クラウドソーシングとフィールドワークに基づく農山漁村の地理空間情報の共有　瀬戸寿一](https://www.jstage.jst.go.jp/article/arp/33/1/33_41/_article/-char/ja/)
+
+22.[伊豆大島ジオパーク・データミュージアム　台風26号泉津地区崩落個所](http://oshima.georepublic.jp/2013%E5%8F%B0%E9%A2%A826%E5%8F%B7%E6%B3%89%E6%B4%A5%E5%9C%B0%E5%8C%BA%E5%B4%A9%E8%90%BD%E5%80%8B%E6%89%80)
+
+23.[伊豆大島ジオパーク・データミュージアム　2013.10.16土砂災害](http://oshima.georepublic.jp/2013.10.16%E5%9C%9F%E7%A0%82%E7%81%BD%E5%AE%B3)
+
+24.[伊豆大島台風26号被災状況マップ](https://izuoshima26.crowdmap.com/)
+
+25.[LocalWiki Organization Japan Guide(Japan)](https://ja.localwiki.org/main-ja/)
+
+26.[室蘭Wiki](https://ja.localwiki.org/mr/)
+
+
+
+
+
 
 
 
