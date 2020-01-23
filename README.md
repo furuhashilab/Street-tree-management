@@ -71,8 +71,12 @@ natural=tree の地物でtree:refを使っているケースが143121件, refを
 
 <img src="https://user-images.githubusercontent.com/15658355/72495137-362f1c00-3869-11ea-9c20-c63a1f88615e.jpg" width="400px">
 
+図　5　natural=tree と ref のタグが使われている札幌の例
 
-図　5  Go Mapのスマホ画面2例
+<img src="images/Sapporonaturaltree_reftagts.jpg" width="400px">
+
+
+図　6  Go Mapのスマホ画面2例
 
 <img src="https://user-images.githubusercontent.com/15658355/72495018-f831f800-3868-11ea-87c3-80bd62e417d5.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/72495025-fbc57f00-3868-11ea-9457-de0f65ff6cf7.jpg" height="250px">   
 
@@ -85,7 +89,7 @@ natural=tree の地物でtree:refを使っているケースが143121件, refを
 #### 撮影方法
 2－1でOpenStreetMapにマッピングした路線を歩行し街路樹をMapillary アプリを使用し撮影しアップロード。時間列変化を見るために半年くらいの間隔で同じ場所を撮影する. 
 
-図　6　MapillaryのPC画面3例  
+図　7　MapillaryのPC画面3例  
 
 ![](https://user-images.githubusercontent.com/15658355/72495151-3cbd9380-3869-11ea-9315-f1c529151a4d.jpg)|![](https://user-images.githubusercontent.com/15658355/72495153-3e875700-3869-11ea-9094-6727c328e26d.jpg)|![](https://user-images.githubusercontent.com/15658355/72495156-40e9b100-3869-11ea-8066-4e6f4306c26a.jpg)
 :--------:|:--------:|:--------:
@@ -98,10 +102,10 @@ natural=tree の地物でtree:refを使っているケースが143121件, refを
 カリフォルニアのデービスで2004年[DaisWiki](https://daviswiki.org/)がスタートする。カリフォルニア大学デービス校の学生たちが街の役に立つようなことを考え、住民が記事を書き載せるサイトをつくる。2010年にLocalWikiプロジェクトが始まる。<br>
 日本においては、2012年オープンソースのLocalWikiを使い国土交通省事業として伊豆大島（東京都大島町）が[伊豆大島ジオパーク・データミュージアム](http://oshima.georepublic.jp/Front_Page)というWebサイトを構築した。LocalWikiの背景地図として利用されているOpenStreetMapは島内外からの参加者によるマッピングパーティ開催などで整備された。当初は伊豆大島の観光活性化になる情報を一元化し島内外に発信・共有・蓄積することであった。しかし、2013年10月の台風26号で大被害を受けたとき、地元住民が災害写真を発信したり、Webサイト構築時にかかわったエンジニアやマッパーなどの人的ネットワークにより被災状況や危険個所区域の情報を集約した伊豆大島台風被災状況マップがつくられた。
 
-図　7　伊豆大島ジオパーク・データミュージアムの台風26号災害写真と記事の投稿
+図　8　伊豆大島ジオパーク・データミュージアムの台風26号災害写真と記事の投稿
 <img src="https://user-images.githubusercontent.com/15658355/72495179-4b0baf80-3869-11ea-86c9-eded0d2cb270.jpg" width="400px">  <img src="https://user-images.githubusercontent.com/15658355/72495182-4d6e0980-3869-11ea-89e8-15f06619a395.jpg" width="400px">
 
-図　8　伊豆大島台風被災状況マップ
+図　9　伊豆大島台風被災状況マップ
 
 <img src="https://user-images.githubusercontent.com/15658355/72495185-51019080-3869-11ea-8753-e7a565c64f68.jpg" width="400px">
 
@@ -117,12 +121,12 @@ LocalWikiは今回の研究目的と合致し、PCだけでなくスマホから
 LocalWikiの都筑の樹木の各ページを見た人が問題樹木に速やかに気が付くように、観察する全てのサクラの木の状況を毎回アップロードしていく方法ではなく、観察したサクラの中から問題がある樹木の写真とコメントをアップロードする方法をとった。また過去に撮影したサクラの開花の写真などもアップロードし経年変化を示した。サクラの写真のキャプション内に樹木番号表示をし、OpenStreetMap上の樹木位置のサイトとリンクをはり、当該樹木の位置が確認できるようにした。
 
 
-図　9　LocalWikiのスマホ画面  3例  
+図　10　LocalWikiのスマホ画面  3例  
 
 <img src="https://user-images.githubusercontent.com/15658355/72495198-57900800-3869-11ea-824d-6038b37c43db.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/72495208-5c54bc00-3869-11ea-81f1-e5733593f88f.jpg" height="250px">  <img src="https://user-images.githubusercontent.com/15658355/72495215-5fe84300-3869-11ea-8f14-c596c4723370.jpg" height="250px">  
 
 
-図　10　LocalWikiのPC画面例  
+図　11　LocalWikiのPC画面例  
 
 <img src="https://user-images.githubusercontent.com/15658355/72495225-65458d80-3869-11ea-95ba-fe8cb275454f.png" width="400px">  
 
@@ -149,7 +153,7 @@ LocalWikiの都筑の樹木の各ページを見た人が問題樹木に速や�
 
 ### 6. [参考文献](https://docs.google.com/spreadsheets/d/1ZDFHT-tS0JYU_xqXpMTEAbWzD7e3jMAxkw7V6gYpmtg/edit#gid=1750012034)：
 
-1.[国土交通省　国土技術政策総合研究所　研究資料　第１編　街路樹の点検・診断](http://www.nilim.go.jp/lab/bcg/siryou/tnn/tnn1059pdf/Ks1059018.pdf)　　
+1.[国土交通省　国土技術政策総合研究所　研究資料　別冊第１編　街路樹の点検・診断](http://www.nilim.go.jp/lab/bcg/siryou/tnn/tnn1059pdf/Ks1059018.pdf)　　
 
 2.[国土交通省　国土技術政策総合研究所　研究資料　第２編　街路樹の点検・診断事例集](http://www.nilim.go.jp/lab/bcg/siryou/tnn/tnn1059pdf/Ks1059013.pdf)　　
 
